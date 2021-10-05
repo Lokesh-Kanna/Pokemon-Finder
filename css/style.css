@@ -1,0 +1,203 @@
+#mainBox {
+    background-image: url('../img/mainbcg.gif');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#row1 {
+    background-color: rgba(165, 240, 243, 0.712);
+    height: 70px;
+    opacity: 0.8;
+}
+
+#titleBcgImg {
+    height: 70px;
+    width: 50%;
+}
+
+#titleBcgImg:hover {
+    height: 75px;
+}
+
+#row2 {
+    justify-content: space-around;
+}
+
+#nameInputDiv {
+    background-color: rgba(206, 206, 206, 0.747);
+    border-radius: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#nameInput {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#or {
+    background-color: rgb(81, 214, 255);
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#idInputDiv {
+    background-color: rgba(206, 206, 206, 0.747);
+    border-radius: 10px;
+}
+
+#nameInput {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#row3 {
+    background-color: rgba(206, 206, 206, 0.747);
+    border-radius: 10px;
+    margin: 5px 450px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: Play;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.inputBox {
+    border-radius: 15px;
+    height: 35px;
+}
+
+.button {
+    border-radius: 15px;
+    height: 35px;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(190, 79, 97);
+}
+
+
+#imgDisplay {
+    background-size: 350px 450px;
+    margin-left: 7vw;
+}
+
+#infoDisplay {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(243, 172, 106, 0.863);
+    height: 400px;
+    width: 500px;
+    margin-left: 5vw;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    justify-content: center;
+}
+
+#imgDispRow1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(243, 172, 106, 0.863);
+    margin: 0px 30px 0px 30px;
+    padding-top: 20px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+#imgDispRow2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(243, 172, 106, 0.863);
+    margin: 0px 30px 0px 30px;
+    padding-bottom: 22px;
+}
+#imgDispRow3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(243, 172, 106, 0.863);
+    margin: 0px 30px 20px 30px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 70px;
+}
+
+#pokemonName {
+    font-family: 'Play';
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+#pokemonId {
+    font-family: 'Italianno', 'verdana';
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: flex-start;
+}
+
+#pokemonImg {
+    height: 250px;
+    width: 900px;
+    
+}
+
+.imgdtl {
+    font-family: 'Coustard', 'verdana';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.infoDisplay {
+    margin: 20px;
+    font-family: 'Play';
+}
+
+#pokeball1 {
+    height: 10%;
+    width: 10%;
+}
+
+#clear {
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(77, 234, 255);
+}
+
+@media screen and (max-width:900px) {
+    #row3 {
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (max-width:769) {
+    #or {
+        background-color: rgb(81, 214, 255);
+        border-radius: 10px;
+        height: 50px;
+        width: 100px;
+    }
+    body {
+        background-color: black;
+    }
+}
+
+#row5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
